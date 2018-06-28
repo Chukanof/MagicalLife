@@ -22,7 +22,7 @@ namespace MagicalLifeServerShell
                 }
                 catch (Exception e)
                 {
-                    MasterLog.DebugWriteLine(e.Message);
+                    Util.WriteLine(e.Message);
                 }
             }
         }
